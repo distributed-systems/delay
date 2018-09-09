@@ -1,6 +1,6 @@
 {
   "name": "@distributed-systems/delay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asynchronous Delay aka Timeouts for Async/Await",
   "main": "Delay.mjs",
   "scripts": {
@@ -20,9 +20,7 @@
   },
   "homepage": "https://github.com/distributed-systems/delay#readme",
   "devDependencies": {
-    "section-tests": "^2.2.1"
-  },
-  "dependencies": {
+    "section-tests": "^2.2.1",
     "@distributed-systems/eslint-config": "^1.0.0"
   }
 }
