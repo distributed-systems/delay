@@ -1,0 +1,28 @@
+{
+  "name": "@distributed-systems/delay",
+  "version": "1.0.0",
+  "description": "Asynchronous Delay aka Timeouts for Async/Await",
+  "main": "Delay.mjs",
+  "scripts": {
+    "test": "node --no-warnings --experimental-modules ./node_modules/.bin/section ./test/**/*.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-systems/delay.git"
+  },
+  "keywords": [
+    "delay"
+  ],
+  "author": "Lina van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distributed-systems/delay/issues"
+  },
+  "homepage": "https://github.com/distributed-systems/delay#readme",
+  "devDependencies": {
+    "section-tests": "^2.2.1"
+  },
+  "dependencies": {
+    "@distributed-systems/eslint-config": "^1.0.0"
+  }
+}
